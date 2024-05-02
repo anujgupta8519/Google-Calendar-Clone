@@ -88,7 +88,7 @@ function EventModel() {
                             {labelsClasses.map((item, index) => (
                                 <span key={index} 
                                 onClick={() => setSelectLabel(item)}
-                                className={`${item.replace('300','500')} w-6 h-6 rounded-full flex items-center justify-center cursor-pointer`}>
+                                className={`${item} w-6 h-6 rounded-full flex items-center justify-center cursor-pointer`}>
 
                                   {selectLabel === item && <span className='material-icons-outlined text-white text-sm'>done</span>}
                                 </span>
